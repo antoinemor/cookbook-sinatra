@@ -2,8 +2,8 @@ Beans & Bacon breakfast,Beans description, 5, Très facile,false
 Plum pudding,Pudding description, 20, Facile,true
 Apple pie,Apple pie description, 20, Moyen,false
 Christmas crumble,Crumble description, 30, Difficile,false
-Poulet Ananas,Du poulet et de l'ananas, 15, Facile,false
-Hachis Parmentier,Du hachis et du parmentier, 40, Facile,false
+Poulet Ananas,Du poulet et de l'ananas, 15, Facile,true
+Hachis Parmentier,Du hachis et du parmentier, 40, Facile,true
 Tartare de saumon,Du tartare et du saumon, 0, Facile,false
 Boeuf au sésame,Du boeuf et du sésame voyons,7,Facile,false
 Beignets à la banane,Beignets à la banane description,5,Très facile,false
@@ -18,3 +18,7 @@ Feijoada,Arroz e feijao,60,Difficile,false
 Pizza Paulista,Pizza délicieuse,8,Moyennement difficile,true
 Moelleux au chocolat,Moelleux au chocolat description,10,Très facile,false
 Choux à la crème vanille et chocolat,Choux à la crème vanille et chocolat description,60,Difficile,false
+Foie gras,Du foie et du gras,23,Difficile,false
+Porc au caramel,Du porc et du caramel,20,Facile,true
+Chocolat des neiges, description,0,Très facile,false
+Flan pâtissier traditionnel, description,40,Très facile,false

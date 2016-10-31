@@ -1,0 +1,14 @@
+<h1>Add a new recipe</h1>
+<form action="/add" method="post">
+  <input type="text" name="name" value="Recipe Name"><br>
+  <input type="text" name="description" value="Recipe Description"><br>
+  <input type="text" name="cooking_time" value="Cooking Time"><br>
+  <input type="radio" name="difficulty" value="Très facile"> Very easy
+  <input type="radio" name="difficulty" value="Facile"> Easy
+  <input type="radio" name="difficulty" value="Moyennement difficile"> Medium
+  <input type="radio" name="difficulty" value="Difficile"> Hard<br>
+  Have you ever done the recipe?
+  <input type="radio" name="done" value="true"> Yes
+  <input type="radio" name="done" value="false"> No<br>
+  <input type="submit" value="Submit">
+</form>

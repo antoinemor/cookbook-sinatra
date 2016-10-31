@@ -1,0 +1,7 @@
+<h1>Import a new recipe from Marmiton</h1>
+
+<% @result[0].each_with_index do |recipe, index| %>
+  <li><a href=/import_done?<%="name=#{recipe.gsub(" ", "+")}&url=#{@result[1][index]}"%>>Click</a> to import
+    <%= "#{recipe.downcase}"%>
+  </li>
+<% end %>

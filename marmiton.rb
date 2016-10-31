@@ -21,6 +21,7 @@ class Marmiton
     # Fetch information from recipe webpage
     ingr_doc = Nokogiri::HTML(open(url), nil, 'utf-8')
     recipe_add_info = {
+
       difficulty: ingr_doc.search('.m_content_recette_breadcrumb').text.match(/-\r\n.+([A-Z].+)\r/)[1],
       cooking_time: ingr_doc.search('.cooktime').text.to_i
     }
