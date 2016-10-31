@@ -1,0 +1,8 @@
+<h1>Cookbook list</h1>
+
+<% @recipes.each_with_index do |recipe, index| %>
+      <% check = recipe.done ? "[X]" : "[\s]" %>
+       <li>
+       <%= "#{check} #{index + 1} - #{recipe.name}: #{recipe.description}, #{recipe.difficulty} à faire, #{recipe.cooking_time} minutes de cuisson" %>
+       </li>
+  <% end %>
